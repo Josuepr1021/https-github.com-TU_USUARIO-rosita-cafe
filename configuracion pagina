@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosita & Café | Fundas de Cargadores</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <h1>Rosita & Café</h1>
+      <p>Fundas de lujo para tus cargadores</p>
+    </div>
+  </header>
+
+  <main class="productos">
+    <div class="producto">
+      <img src="funda1.jpg" alt="Funda Premium 1">
+      <h2>Funda Premium Elegante</h2>
+      <p>Q200</p>
+      <a href="https://wa.me/502TU_NUMERO?text=Quiero%20comprar%20Funda%20Premium%20Elegante" target="_blank">Comprar por WhatsApp</a>
+    </div>
+    <div class="producto">
+      <img src="funda2.jpg" alt="Funda de Lujo 2">
+      <h2>Funda de Lujo</h2>
+      <p>Q250</p>
+      <a href="https://wa.me/502TU_NUMERO?text=Quiero%20comprar%20Funda%20de%20Lujo" target="_blank">Comprar por WhatsApp</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Rosita & Café. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header - Logo */
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* Productos */
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.producto:hover {
+  transform: translateY(-10px);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.producto h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.producto p {
+  font-size: 18px;
+  color: #777;
+}
+
+.producto a {
+  display: inline-block;
+  background-color: #c49a6c;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.producto a:hover {
+  background-color: #a0784a;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
