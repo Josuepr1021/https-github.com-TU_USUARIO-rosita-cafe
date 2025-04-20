@@ -17,16 +17,22 @@
 
   <main class="productos">
     <div class="producto">
-      <img src="funda1.jpg" alt="Funda Premium 1">
+      <img src="https://via.placeholder.com/250x250.png?text=Funda+Premium+Elegante" alt="Funda Premium Elegante">
       <h2>Funda Premium Elegante</h2>
       <p>Q200</p>
       <a href="https://wa.me/502TU_NUMERO?text=Quiero%20comprar%20Funda%20Premium%20Elegante" target="_blank">Comprar por WhatsApp</a>
     </div>
     <div class="producto">
-      <img src="funda2.jpg" alt="Funda de Lujo 2">
+      <img src="https://via.placeholder.com/250x250.png?text=Funda+de+Lujo" alt="Funda de Lujo">
       <h2>Funda de Lujo</h2>
       <p>Q250</p>
       <a href="https://wa.me/502TU_NUMERO?text=Quiero%20comprar%20Funda%20de%20Lujo" target="_blank">Comprar por WhatsApp</a>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x250.png?text=Funda+Chic" alt="Funda Chic">
+      <h2>Funda Chic</h2>
+      <p>Q180</p>
+      <a href="https://wa.me/502TU_NUMERO?text=Quiero%20comprar%20Funda%20Chic" target="_blank">Comprar por WhatsApp</a>
     </div>
   </main>
 
@@ -136,4 +142,8 @@ h1, h2, p {
   bottom: 0;
   width: 100%;
 }
+https://via.placeholder.com/250x250.png?text=Funda+Premium+Elegante
+https://via.placeholder.com/250x250.png?text=Funda+de+Lujo
+https://via.placeholder.com/250x250.png?text=Funda+Chic
+
 
